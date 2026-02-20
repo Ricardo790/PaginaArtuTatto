@@ -1,13 +1,13 @@
 
 const TATTOOS = [
     //seccion de practicas
-    { id: 1, title: 'Albert', category: 'Practicas', url: 'practicas/1.webp'  },
-    { id: 2, title: 'Baby', category: 'Practicas', url: 'practicas/2.webp'  },
-    { id: 3, title: 'Conjunto', category: 'Practicas', url: 'practicas/3.webp'  },
-    { id: 4, title: 'Caligrafia', category: 'Practicas', url: 'practicas/4.webp'  },
-    { id: 5, title: 'Rostro', category: 'Practicas', url: 'practicas/5.webp'  },
-    { id: 6, title: 'Rostro', category: 'Practicas', url: 'practicas/6.webp'  },
-    { id: 6, title: 'Rostro', category: 'Practicas', url: 'practicas/jackie.webp'  },
+    { id: 1, title: 'Albert', category: 'Practicas', url: 'Practicas/1.webp'  },
+    { id: 2, title: 'Baby', category: 'Practicas', url: 'Practicas/2.webp'  },
+    { id: 3, title: 'Conjunto', category: 'Practicas', url: 'Practicas/3.webp'  },
+    { id: 4, title: 'Caligrafia', category: 'Practicas', url: 'Practicas/4.webp'  },
+    { id: 5, title: 'Rostro', category: 'Practicas', url: 'Practicas/5.webp'  },
+    { id: 6, title: 'Rostro', category: 'Practicas', url: 'Practicas/6.webp'  },
+    { id: 6, title: 'Rostro', category: 'Practicas', url: 'Practicas/jackie.webp'  },
     //seccion de linea fina
     { id: 1, title: 'Albert', category: 'Linea Fina', url: 'LineaFina/1.webp'  },
     { id: 2, title: 'Baby', category: 'Linea Fina', url: 'LineaFina/2.webp'  },
