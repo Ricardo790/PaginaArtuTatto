@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artu | Estudio de Tatuajes Profesional</title>
+    <title>Artu | Estudio de Tatuajes </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:ital,wght@0,400;0,600&family=Space+Mono:wght@400;700&display=swap"
@@ -109,7 +109,7 @@
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="flex items-center gap-3">
           <img
-            src="imagen.png"
+            src="iconos/logoEncabezado.webp"
             alt="Logo ArtuTatto"
             class="h-12 w-12 object-contain rounded-sm border border-[#c5a059]/20"
             loading="lazy"
@@ -125,7 +125,7 @@
         </div>
 
         <div
-          class="hidden md:flex gap-10 font-serif-bold text-[10px] uppercase tracking-widest"
+          class="hidden md:flex gap-10 font-serif-bold text-[15px] uppercase tracking-widest"
         >
           <a href="#inicio" class="hover:text-[#c5a059] transition-colors"
             >Inicio</a
@@ -154,7 +154,7 @@
     >
       <div class="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=2000"
+          src="SemiRealismo/5.webp"
           class="w-full h-full object-cover opacity-20 grayscale scale-110"
           loading="lazy"
         />
@@ -167,8 +167,7 @@
           <div class="ornament"></div>
           <span
             class="text-[10px] uppercase tracking-[0.6em] text-[#c5a059] font-bold"
-            >Desde 2025</span
-          >
+          ></span>
           <div class="ornament"></div>
         </div>
         <h1
@@ -199,6 +198,13 @@
             class="border border-[#c5a059]/40 px-10 py-4 uppercase text-[10px] font-bold tracking-[0.3em] hover:bg-[#c5a059]/10 transition-all"
             >Consultar Cita</a
           >
+
+          <a
+            href="#artista"
+            class="border border-[#c5a059]/40 px-10 py-4 uppercase text-[10px] font-bold tracking-[0.3em] hover:bg-[#c5a059]/10 transition-all"
+          >
+            Conocer al Artista
+          </a>
         </div>
       </div>
     </header>
@@ -211,7 +217,7 @@
         >
           <div class="md:flex md:items-center md:gap-8">
             <img
-              src="logo.svg"
+              src="iconos/logo.webp"
               alt="Foto del tatuador"
               class="w-40 h-40 object-cover rounded-full border-2 border-[#c5a059]/20 mb-6 md:mb-0"
               loading="lazy"
@@ -224,10 +230,7 @@
                 Especializado en black work, semi realismo y línea fina, mi
                 trabajo se distingue por la precisión, la limpieza y el enfoque
                 en los detalles. Cada pieza es concebida como una obra única,
-                buscando equilibrio, estética y permanencia en el tiempo. Mi
-                visión es crear tatuajes elegantes y atemporales, que no solo
-                destaquen visualmente, sino que también conserven su fuerza y
-                significado a lo largo de los años.
+                buscando equilibrio, estética y permanencia en el tiempo. 
               </p>
               <p class="text-sm text-zinc-400 mb-4 italic">
                 Mi visión es crear tatuajes elegantes y atemporales, que no solo
@@ -246,15 +249,8 @@
               </ul>
               <div class="flex gap-4">
                 <a
-                  href="#"
-                  class="flex items-center gap-2 hover:text-[#c5a059] transition-colors"
-                >
-                  <img src="iconos/Insta.webp" class="w-5 h-5 object-contain" loading="lazy" />
-                  <span>Instagram</span>
-                </a>
-
-                <a
-                  href="#"
+                  href="https://wa.me/7779750237"
+                  target="_blank"
                   class="flex items-center gap-2 hover:text-[#c5a059] transition-colors"
                 >
                   <img
@@ -264,17 +260,41 @@
                   />
                   <span>WhatsApp</span>
                 </a>
-
                 <a
-                  href="#"
+                  href="https://www.instagram.com/artu44_?utm_source=qr&igsh=MWg3ZmJod3dzYnNvMA=="
+                  target="_blank"
                   class="flex items-center gap-2 hover:text-[#c5a059] transition-colors"
                 >
                   <img
-                    src="iconos/portfolio.webp"
+                    src="iconos/Insta.webp"
                     class="w-5 h-5 object-contain"
                     loading="lazy"
                   />
-                  <span>Portfolio</span>
+                  <span>Instagram</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/share/18Ek8QjwQY/"
+                  target="_blank"
+                  class="flex items-center gap-2 hover:text-[#c5a059] transition-colors"
+                >
+                  <img
+                    src="iconos/facebook.webp"
+                    class="w-5 h-5 object-contain"
+                    loading="lazy"
+                  />
+                  <span>Facebook</span>
+                </a>
+                <a
+                  href="https://www.tiktok.com/@artu44_?_r=1&_t=ZS-945HC8Xfxn2"
+                  target="_blank"
+                  class="flex items-center gap-2 hover:text-[#c5a059] transition-colors"
+                >
+                  <img
+                    src="iconos/tiktok.webp"
+                    class="w-5 h-5 object-contain"
+                    loading="lazy"
+                  />
+                  <span>TikTok</span>
                 </a>
               </div>
             </div>
@@ -290,38 +310,36 @@
 
           <!-- Filtros -->
           <div class="flex flex-wrap justify-center gap-4 mb-16">
-          
-             <button
+            <button
               onclick="filterGallery('Practicas')"
               class="filter-btn px-6 py-2 text-[9px] uppercase tracking-widest border border-white/10 hover:border-[#c5a059] transition-all"
             >
-            Prácticas
+              Prácticas
             </button>
             <button
               onclick="filterGallery('Linea Fina')"
               class="filter-btn px-6 py-2 text-[9px] uppercase tracking-widest border border-white/10 hover:border-[#c5a059] transition-all"
             >
-            Linea Fina
+              Linea Fina
             </button>
             <button
               onclick="filterGallery('Black Work')"
               class="filter-btn px-6 py-2 text-[9px] uppercase tracking-widest border border-white/10 hover:border-[#c5a059] transition-all"
             >
-            Black work
+              Black work
             </button>
             <button
               onclick="filterGallery('Semi Realismo')"
               class="filter-btn px-6 py-2 text-[9px] uppercase tracking-widest border border-white/10 hover:border-[#c5a059] transition-all"
             >
-             Semi Realismo
+              Semi Realismo
             </button>
-              <button
+            <button
               onclick="filterGallery('Todos')"
               class="filter-btn active px-6 py-2 text-[9px] uppercase tracking-widest border border-[#c5a059] bg-[#c5a059] text-black font-bold transition-all"
             >
               Todos
             </button>
-           
           </div>
         </div>
 
@@ -330,6 +348,14 @@
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           <!-- Se llena dinámicamente -->
+        </div>
+        <div class="text-center mt-12">
+          <button
+            id="loadMoreBtn"
+            class="btn-wine px-8 py-3 uppercase text-[10px] font-bold tracking-[0.3em]"
+          >
+            Ver más trabajos
+          </button>
         </div>
       </section>
 
@@ -340,9 +366,7 @@
           class="max-w-4xl mx-auto bg-[#0a0a0a] border border-[#c5a059]/10 p-10 md:p-20 rounded-sm reveal"
         >
           <div class="text-center mb-16">
-            <h2 class="font-serif-bold text-4xl italic mb-4">
-              Agenda tu sesión
-            </h2>
+            <h2 class="font-serif-bold text-4xl italic mb-4">Agenda tu cita</h2>
             <p class="text-[10px] uppercase tracking-[0.4em] text-[#c5a059]">
               Recibe una cotización personalizada vía WhatsApp
             </p>
@@ -375,10 +399,9 @@
                   id="form-style"
                   class="w-full bg-[#0a0a0a] border-b border-white/10 py-3 outline-none focus:border-[#c5a059] transition-colors italic"
                 >
-                  <option>Realismo</option>
-                  <option>Tradicional</option>
-                  <option>Fine Line</option>
-                  <option>Geométrico</option>
+                  <option>Semi Realismo</option>
+                  <option>Linea Fina</option>
+                  <option>Balck Work</option>
                 </select>
               </div>
             </div>
@@ -411,27 +434,40 @@
 
     <!-- Footer -->
     <footer class="py-24 border-t border-white/5 bg-[#0a0a0a] text-center">
-      <div class="flex justify-center gap-12 mb-12 opacity-50">
-        
-        <a href="#" class="flex items-center gap-2 hover:text-[#c5a059] transition-colors">
-                  <img src="iconos/whatsapp.webp"  class="w-5 h-5 object-contain" loading="lazy"/>
-                  <span>WhatsApp</span>
-                </a>
-        <a href="#" class="flex items-center gap-2 hover:text-[#c5a059] transition-colors">
-                  <img src="iconos/Insta.webp"  class="w-5 h-5 object-contain" loading="lazy"/>
-                  <span>Instagram</span>
-                </a>
-        <a href="#" class="flex items-center gap-2 hover:text-[#c5a059] transition-colors">
-                  <img src="iconos/whatsapp.webp"  class="w-5 h-5 object-contain" loading="lazy"/>
-                  <span>WhatsApp</span>
-                </a>
-      </div>
-      <p class="text-[9px] uppercase tracking-[0.6em] opacity-20">
+      <p class="text-[15px] uppercase tracking-[0.6em] opacity-90">
         © 2025 ArtuTatto | Calle Ojo de agua Santa Catarina, Tepoztlán, Morelos
       </p>
     </footer>
 
     <!-- Script Principal -->
     <script src="index.js"></script>
+
+    <button
+      id="btnTop"
+      class="fixed bottom-6 right-6 bg-[#c5a059] text-black w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:scale-110"
+    >
+      ↑
+    </button>
+
+    <script>
+      const btnTop = document.getElementById("btnTop");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          btnTop.classList.remove("opacity-0", "pointer-events-none");
+          btnTop.classList.add("opacity-100");
+        } else {
+          btnTop.classList.add("opacity-0", "pointer-events-none");
+          btnTop.classList.remove("opacity-100");
+        }
+      });
+
+      btnTop.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
   </body>
 </html>
