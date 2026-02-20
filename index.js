@@ -36,13 +36,13 @@ const TATTOOS = [
 
 const commentsDB = {}; // Local storage simulado
 
-function renderGallery(filter = 'Practicas') {
+function renderGallery(filter = 'Todos') {
     const grid = document.getElementById('gallery-grid');
     grid.style.opacity = '0';
     
     setTimeout(() => {
         grid.innerHTML = '';
-        const filtered = filter === 'Practicas' ? TATTOOS : TATTOOS.filter(t => t.category === filter);
+        const filtered = filter === 'Todos' ? TATTOOS : TATTOOS.filter(t => t.category === filter);
 
         filtered.forEach((t, index) => {
             const item = document.createElement('div');
